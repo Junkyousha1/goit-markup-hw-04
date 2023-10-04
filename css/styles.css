@@ -172,8 +172,9 @@ img {
 .main-section {
     display: flex;
     width: 1600px;
+    height: 600px;
     flex-direction: column;
-    background-image: url("/images/main-section-bg.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(0, 0, 0, 0.5)), url("/images/main-section-bg.jpg");;
     background-repeat: no-repeat;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -209,7 +210,7 @@ img {
     flex-basis: calc((100%-270px))/4;
     gap: 30px;
     align-items: center;
-    /* padding: 94px 0px; */
+    padding: 94px 0px;
     margin: 0;
 }
 .icon-quality-container {
